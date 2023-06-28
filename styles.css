@@ -1,0 +1,35 @@
+/* Element tags */
+/* h1: Big blocks full of text
+   h2: Smaller text blocks 
+   h3: Image captions*/
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    margin: auto;
+}
+
+/* Class tags */
+.container {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+/* ID tags */
+#r1 {
+    height: 300px;
+    margin: auto;
+}
+
+#r1e1 {
+    padding: 120px 150px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+/* #r1e2 {} */
+/* #r1e3 {} */
+/* #r1e4 {} */
