@@ -10,28 +10,46 @@
 
 <!-- ID tags are the row number (1 or 2) and the element number (counted from left to right and top to bottom) -->
 <body>
-    <!-- Container for the sidebar along with the other content -->
-    <div class="container" id="homeContent">
-        <!-- Sidebar if I want to add it to home screen -->
-        
-        <!-- Container for all of the sections side-by-side in the top row -->
-        <div class="container" id="r1">
-            <center><h1 id="r1e1">Lorem Ipsum</h1></center>
-            <!-- Image and small block of text stacked on top of each other -->
-            <div class="block" id="r1e2">
-                <img id="r1e2" src="Photos/placeholder.jpg">
-                <h2 id="r1e3">Lorem Ipsum</h2>
-            </div>
-            <!-- An image with a caption  -->
-            <div class="block">
-                <img id="r1e4" src="Photos/placeholder.jpg">
-                <!-- <h3 id="r1e5">Lorem Ipsum</h3> -->
-            </div>
+    <div class="container" id="intro">
+        <img src="Photos/passportPic.png" id="passport">
+        <div class="block" id="introPaper">
+            <h1>Portfolio Landing</h1>
+            <p>Welcome to my portfolio! My name is Eris Blair, and I'm a high school student and aspiring software engineer and linguist. Hopefully you're packed and ready, because we're going on a trip to get to know me, see my projects, and explore my future plans! Open my passport to learn more about me.</p>
+            <center><button class="navButton" id="openPassportButton">Open Passport</button></center>
         </div>
-    
-        <div class="container" id="r2">
     </div>
 
+    <div class="block" id="profile">
+        <center><h2 class="yellow">USA PASSPORT</h2></center>
+        <div class="container">
+            <!-- ***ADD HEADSHOT HERE --> <img src="Photos/placeholder.jpg" id="headshot">
+            <div class="block">
+                <h2>ERIS BLAIR</h2>
+                <ul class="details">
+                    <li><b>Location: </b>Speedway, IN, USA</li>
+                    <li><b>School: </b>Speedway High School</li>
+                    <li><b>Grade: </b>11th (Junior)</li>
+                    <li><b>Age:</b> 16</li>
+                </ul>
+            </div>
+        </div>
+        <div id="experience">
+            <p class="subheading">EXPERIENCE: </p>
+            <ol class="details">
+                <li>Nextech Catapult program (2023)</li>
+                <li>Speedway Girls Who Code club leader</li>
+                <li>Established a small business in 2021 for Innovations class</li>
+                <li>_ AP tests taken and passed</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+    <center>
+        <button class="navButton" id="backButton1"><img src="Photos/Icons/backButtonPic.png" height="20px" width="20px"></button>
+        <button class="navButton" id="boardButton">Board the Plane</button>
+    </center>
     </div>
 
     <script src="script.js"></script>
