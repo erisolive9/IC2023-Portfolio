@@ -14,6 +14,10 @@ continueButton1.onclick = function() {
     buttons.style.display = "block"
 };
 
+continueButton2.onclick = function() {
+    window.location.href = "Pages/Map/map.html"
+}
+
 backButton1.onclick = function() {
     profile.style.display = "none"
     buttons.style.display = "none"
