@@ -1,4 +1,5 @@
 //Elements and divs on screen
+let content = document.querySelector("body");
 let intro = document.getElementById("intro");
 let profile = document.getElementById("profile");
 
@@ -9,17 +10,30 @@ let continueButton2 = document.getElementById("boardButton");
 let backButton1 = document.getElementById("backButton1");
 
 continueButton1.onclick = function() {
-    intro.style.display = "none"
-    profile.style.display = "block"
-    buttons.style.display = "block"
+    //Set intro to exit towards the top
+    intro.style.animation = "slideOutUp 0.5s"
+    //Allow time for animations to take place, make div disappear afterwards and play animation of new coming in
+    setTimeout(function() {
+        intro.style.display = "none"
+        profile.style.animation = "slideInUp 0.5s"
+    }, 500)
+    //Allow time for animations to take place, make the div appear afterwards
+    setTimeout(function() {
+        profile.style.display = "block"
+        buttons.style.display = "block"
+    }, 500)
 };
 
 continueButton2.onclick = function() {
-    window.location.href = "Pages/Map/map.html"
+    content.style.animation = "fadeOut 0.5s"
+    setTimeout(function() {
+        window.location.href = "Pages/Map/map.html"
+    }, 500)
 }
 
 backButton1.onclick = function() {
     profile.style.display = "none"
     buttons.style.display = "none"
     intro.style.display = "flex"
+    intro.style.animation = "slideInLeft 0.8s"
 }

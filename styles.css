@@ -93,6 +93,7 @@ p {
 #intro {
     margin: 3% 10% 0% 10%;
     transition: all 1s ease 0s;
+    animation: slideInLeft 0.8s;
 }
 
 #passport {
@@ -138,3 +139,60 @@ p {
     margin: 5px 70px;
 }
 
+/* Keyframes */
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -1000;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(800px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutUp {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-1000px);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(1000px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeBackground {
+    from {
+        background-image: url("Photos/backgroundPic.avif");
+    }
+    to {
+        background-image: url("Photos/blankBackground.jpg");
+    }
+}
