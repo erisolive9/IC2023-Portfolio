@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="map.css" type="text/css"/>
+    <link rel="icon" href="/Photos/Icons/islandFavicon.png"/>
     <title>Map</title>
 </head>
 
@@ -13,36 +14,75 @@
         <div class="block" id="islands">
             <div class="container" id="row1">
                 <figure class="block" id="island1">
-                    <img src="/Photos/island1.png" class="islandPic">
+                    <a href="/Pages/Academics/academics.html"><img src="/Photos/island1.png" class="islandPic"></a>
                     <figcaption class="mapLabels">Academics</figcaption>
                 </figure>
                 <figure class="block" id="island2">
-                    <img src="/Photos/island2.png"class="islandPic" >
+                    <a href="/Pages/Skills/skills.html"><img src="/Photos/island2.png"class="islandPic"></a>
                     <figcaption class="mapLabels">Skills</figcaption>
                 </figure>
             </div>
     
             <div class="container" id="row2">
                 <figure class="block" id="island3">
-                    <img src="/Photos/island3.png" class="islandPic">
+                    <a href="/Pages/Projects/projects.html"><img src="/Photos/island3.png" class="islandPic"></a>
                     <figcaption class="mapLabels">Projects</figcaption>
                 </figure>
                 <figure class="block" id="island4">
-                    <img src="/Photos/island4.png" class="islandPic" >
+                    <a href="/Pages/Future/future.html"><img src="/Photos/island4.png" class="islandPic"></a>
                     <figcaption class="mapLabels">Future</figcaption>
                 </figure>
             </div>
         </div>
 
-        <div class="block">
-            <center><h1>Portfolio Map</h1></center>
-            <h2>It's time to pick the destination of your trip! Pick one of the islands to land the plane on so you can explore one part of my porfolio. The pilot can always circle back to the others</h2>
-            <ul>
-                <li><u>Academics</u>: my test history, GPA, extracurriculars, and other details!</li>
-                <li><u>Skills</u>: technical, communication, and artistic skills I've acquired. </li>
-                <li><u>Projects</u>: examples of projects I've created to showcase my skills. </li>
-                <li><u>Future</u>: my college and career plans.</li>
-            </ul>
+    <div class="block" id="description">
+        <center><h1>Portfolio Map</h1></center>
+        <h2>It's time to pick the destination of your trip! <u>Hover</u> over an island to see the attractions available
+            there. <u>Click</u> on an island to land the plane there and visit. The pilot can always circle back to 
+            a different island if you choose to return to this selection page.
+        </h2>
+
+        <!-- <center><img src="/Photos/planePic.png" id="plane" draggable="true"></center> -->
+
+        <div id="academicsDetails">
+                <p>Academics: </p>
+                <ul>
+                    <li>Test history and scores</li>
+                    <li>GPA</li>
+                    <li>Extracurriculars</li>
+                    <li>Volunteer Hours</li>
+                </ul>
+            </div>
+
+            <div id="skillsDetails">
+                <p>Skills: </p>
+                <ul>
+                    <li>Technical skills</li>
+                    <li>Communication skills</li>
+                    <li>Languages</li>
+                    <li>Artistic abilities</li>
+                </ul>
+            </div>
+
+            <div id="projectsDetails">
+                <p>Projects: </p>
+                <ul>
+                    <li>Programs I've coded</li>
+                    <li>Art and design projects</li>
+                    <li>School projects</li>
+                    <li>Written works</li>
+                </ul>
+            </div>
+
+            <div id="futureDetails">
+                <p>Future: </p>
+                <ul>
+                    <li>College plans</li>
+                    <li>Career plans</li>
+                    <li>Personal hopes</li>
+                </ul>
+            </div>
+
         </div>
     </div>
 

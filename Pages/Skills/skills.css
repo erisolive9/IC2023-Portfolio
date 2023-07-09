@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 120px;
+    margin: 30px;
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 64px;
+    text-align: center;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+figure {
+    background-color: rgb(255, 251, 251);
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px gray;
+}
+
+figcaption {
+    max-width: 425px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+}
+
+/* Class tags */
+.container {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.horizontalCaption {
+    background-color: rgb(255, 251, 251);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-indent: 50px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px gray;
+}
+
+/* Skill overview columns */
+.skillOverCol {
+    padding: 10px 30px;
+    margin: 0px 30px;
+    max-width: 220px;
+}
+
+.skillsList {
+    display: inline-flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(211, 10, 211);
+    padding: 10px;
+    margin: 5px 1px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgb(6, 51, 51);
+}
+
+.subtitle {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    background-color: rgb(49, 64, 121);
+    color: white;
+    padding: 2px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(135, 135, 135);
+}
+
+
+/* ID tags */
+#title {
+    background-image: url("/Photos/oceanBackground.jpg");
+    max-height: 600px;
+    padding: 20px;
+    border-bottom: 5px solid black;
+}
+
+#overview {
+    background-color: rgb(14, 82, 82);
+    color: white;
+    padding: 20px;
+    margin: 30px 80px;
+    border-radius: 20px;
+}
+
+#technicalSkills {
+    background-color: rgb(197, 208, 255);
+    color: rgb(57, 60, 69);
+    padding: 20px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#webSkills {
+    margin: 30px 0px;
+}
+
+#javaSkills {
+    padding: 20px;
+}
+
+#jsPic {
+    margin-top: 55px;
+}
+
+#cspLearnMore, #csaLearnMore {
+    margin: 5px;
+    border-radius: 30px;
+    padding: 0px 5px;
+    border: 1px solid rgb(57, 60, 69);
+}
+
+#cspLearnMore:hover, #csaLearnMore:hover {
+    color: rgb(100, 100, 100);
+    background-color: rgb(192, 192, 192);
+}
+
+
