@@ -89,6 +89,10 @@ p {
     display: none;
 }
 
+a {
+    margin: 0px 8px;
+}
+
 /* ID tags */
 #intro {
     margin: 3% 10% 0% 10%;

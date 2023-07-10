@@ -2,6 +2,7 @@
 let content = document.querySelector("body");
 let intro = document.getElementById("intro");
 let profile = document.getElementById("profile");
+let emailLogo = document.getElementById("emailLogo");
 
 //Buttons
 let buttons = document.querySelector(".buttons");
@@ -37,3 +38,11 @@ backButton1.onclick = function() {
     intro.style.display = "flex"
     intro.style.animation = "slideInLeft 0.8s"
 }
+
+emailLogo.onclick = function() {
+    let copyText = "erisolive@gmail.com"
+    copyText.select()
+    navigator.clipboard.writeText(copyText.value)
+
+    alert("My email address (erisolive@gmail.com) has been copied to your clipboard so you can contact me!")
+};
