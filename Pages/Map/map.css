@@ -89,7 +89,7 @@ figure:hover {
 
 #islands {
     display: inline-block;
-    margin: 20px;
+    margin-right: 100px;
     max-height: 500px;
 }
 
@@ -98,7 +98,7 @@ figure:hover {
 }
 
 #description {
-    margin-left: 20px;
+    margin-left: 100px;
     max-width: 630px;
     border: 5px solid rgb(145, 71, 21);
 }
