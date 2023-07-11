@@ -17,7 +17,7 @@ seniorButton.onclick = function() {
     
     seniorButton.style.animation = "shadow-pop-bl 0.3s"
     seniorButton.classList.add("afterAnim")
-    senior.style.display = "block"
+    senior.style.display = "flex"
 };
 
 gradButton.onclick = function() {
@@ -25,7 +25,7 @@ gradButton.onclick = function() {
 
     gradButton.style.animation = "shadow-pop-bl 0.3s"
     gradButton.classList.add("afterAnim")
-    grad.style.display = "block"
+    grad.style.display = "flex"
 };
 
 collegeButton.onclick = function() {
@@ -33,7 +33,7 @@ collegeButton.onclick = function() {
 
     collegeButton.style.animation = "shadow-pop-bl 0.3s"
     collegeButton.classList.add("afterAnim")
-    college.style.display = "block"
+    college.style.display = "flex"
 };
 
 jobButton.onclick = function() {
@@ -41,7 +41,7 @@ jobButton.onclick = function() {
 
     jobButton.style.animation = "shadow-pop-bl 0.3s"
     jobButton.classList.add("afterAnim")
-    job.style.display = "block"
+    job.style.display = "flex"
 };
 
 function clearChanges() {
