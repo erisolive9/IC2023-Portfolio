@@ -120,6 +120,23 @@ figcaption {
     border: 2px solid black;
 }
 
+.learnMore {
+    padding: 1px 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-decoration: none;
+    color: rgb(57, 60, 69);
+}
+
+.learnMore:hover {
+    background-color: rgb(179, 223, 255);
+}
+
+.learnMore:active {
+    background-color: rgb(109, 194, 255);
+    color: black;
+}
+
 /* ID tags */
 #title {
     background-image: url("Photos/oceanBackground.jpg");
@@ -170,20 +187,5 @@ figcaption {
     margin-top: 55px;
 }
 
-.learnMore {
-    padding: 1px 5px;
-    border: 1px solid black;
-    border-radius: 50%;
-    text-decoration: none;
-}
-
-.learnMore:hover {
-    background-color: rgb(179, 223, 255);
-}
-
-.learnMore:active {
-    background-color: rgb(109, 194, 255);
-    color: black;
-}
 
 
