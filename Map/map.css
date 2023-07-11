@@ -1,6 +1,6 @@
 body {
     animation: fadeIn 0.5s;
-    background-image: url("/Photos/oceanBackground.jpg");
+    background-image: url("Photos/oceanBackground.jpg");
 }
 
 h1 {

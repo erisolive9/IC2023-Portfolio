@@ -28,7 +28,7 @@ continueButton1.onclick = function() {
 continueButton2.onclick = function() {
     content.style.animation = "fadeOut 0.5s"
     setTimeout(function() {
-        window.location.href = "Pages/Map/map.html"
+        window.location.href = "Map/map.html"
     }, 500)
 }
 
@@ -39,10 +39,3 @@ backButton1.onclick = function() {
     intro.style.animation = "slideInLeft 0.8s"
 }
 
-emailLogo.onclick = function() {
-    let copyText = "erisolive@gmail.com"
-    copyText.select()
-    navigator.clipboard.writeText(copyText.value)
-
-    alert("My email address (erisolive@gmail.com) has been copied to your clipboard so you can contact me!")
-};
