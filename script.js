@@ -28,7 +28,7 @@ continueButton1.onclick = function() {
 continueButton2.onclick = function() {
     content.style.animation = "fadeOut 0.5s"
     setTimeout(function() {
-        window.location.href = "Map/map.html"
+        window.location.href = "map.html"
     }, 500)
 }
 
