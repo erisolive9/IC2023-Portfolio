@@ -26,6 +26,7 @@ h3 {
 
 figure {
     background-color: rgb(255, 251, 251);
+    max-width: 320px;
     padding: 20px;
     margin: 20px;
     border: 2px solid black;
@@ -137,6 +138,11 @@ figcaption {
     border-bottom: 5px solid black;
 }
 
+#communicationSkills {
+    display: block;
+    background-color: rgb(255, 230, 183);
+}
+
 #webSkills {
     margin: 30px 0px;
 }
@@ -149,16 +155,20 @@ figcaption {
     margin-top: 55px;
 }
 
-#cspLearnMore, #csaLearnMore {
-    margin: 5px;
-    border-radius: 30px;
-    padding: 0px 5px;
-    border: 1px solid rgb(57, 60, 69);
+.learnMore {
+    padding: 1px 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-decoration: none;
 }
 
-#cspLearnMore:hover, #csaLearnMore:hover {
-    color: rgb(100, 100, 100);
-    background-color: rgb(192, 192, 192);
+.learnMore:hover {
+    background-color: rgb(179, 223, 255);
+}
+
+.learnMore:active {
+    background-color: rgb(109, 194, 255);
+    color: black;
 }
 
 
